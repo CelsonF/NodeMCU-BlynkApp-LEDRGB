@@ -5,20 +5,23 @@
  * Version 1.0
  *
  * Efeitos simples com seleção de paletas de cores , fadding e strobo(Flash) com  
- * fita de LED RGB(5050) / Não endereçavel no ESP8266-12E(NodeMCU).  
+ * fita de LED RGB(5050) / Não endereçavel no ESP8266-12E(NodeMCU) e controlados 
+ * via wifi pelo celular.  
  *
  * Copyright 2018, Celson Fernando
  * 
- * Para maiores detalhes, veja http://www.youtube.com/watch?v=mSwRuOnOkTE
- * Add link you tube aqui
+ * Foi utilizado como base dos efeitos o vídeo e o projeto do Hugo Demiglio
+ * Para maiores detalhes do projeto do Hugo Demiglio , veja http://www.youtube.com/watch?v=mSwRuOnOkTE
+ * 
  *
  * @copyright     Copyright 2018, Celson Fernando, celson-araujo97@hotmail.com
- * Facebook
- * GitHub
+ * Facebook       https://www.facebook.com/celson.fernando.5
+ * GitHub         https://github.com/CDiabo666/NodeMCU-BlynkApp-LEDRGB
  * 
- * @link          http://hgbrasil.com
+ * //Link de Ajuda para exemplos e como utilizar o Blynk       # http://help.blynk.cc/
+ * //Link de Documentação do Blynk                             # http://docs.blynk.cc/
  * 
- * Created on Hiperload.com - Simple share.
+ * 
  */
 #define BLYNK_PRINT Serial
 
@@ -197,6 +200,10 @@ void fadding_cores(){
   // Em seguida o loop continua, com o azul aceso
 }
 
+
+
+//Para mais detalhes sobre pinos virtuais estou deixando o link da documentação do BlynkApp
+//no começo do Arquivo.
 
 BLYNK_WRITE(V5) // este é o número do pino virtual /pega valor inteiro e escreve na tela
 {
