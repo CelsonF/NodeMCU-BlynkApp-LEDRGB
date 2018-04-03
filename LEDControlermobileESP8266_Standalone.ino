@@ -35,17 +35,18 @@
 // Go to the Project Settings (nut icon).
 
 //Aqui você coloca sua chave que foi disponibilizada no Blynk
-char auth[] = "1bbc00b695244abe8e141f4e6c5af78c";
+char auth[] = "";
 
 // Your WiFi credentials.
+//Colocar endereço e senha do seu Wifi, o celular e o ESP precisam estar conectados a mesma rede.
 
 //SSID(Nome da sua REDE) 
-char ssid[] = "2,4G_net virtua 481L1";
+char ssid[] = "";
 
 // Set password to "" for open networks.
 
 //Senha da Sua Rede
-char pass[] = "3215092000";
+char pass[] = "";
 
 //função timer do blynk
 BlynkTimer timer;
