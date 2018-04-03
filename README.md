@@ -1,4 +1,4 @@
-# NodeMCU-BlynkApp-LEDRGB
+# ESP8266-12E(NodeMCU)-BlynkApp-LEDRGB
 Projeto Open Source 
 Utilizando NodeMCU(ESP8266-12E)
 Fitas de LED RGB não endereçaveis
