@@ -16,7 +16,7 @@
  *
  * @copyright     Copyright 2018, Celson Fernando, celson-araujo97@hotmail.com
  * Facebook       https://www.facebook.com/celson.fernando.5
- * GitHub         https://github.com/CDiabo666/NodeMCU-BlynkApp-LEDRGB
+ * GitHub        https://github.com/CelsonF/NodeMCU-BlynkApp-LEDRGB
  * 
  * //Link de Ajuda para exemplos e como utilizar o Blynk       # http://help.blynk.cc/
  * //Link de Documentação do Blynk                             # http://docs.blynk.cc/
